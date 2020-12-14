@@ -17,6 +17,6 @@ label en_ex1:
 label en_ex2:
     li "Oh no !"
     li "Why aren't you doing well, if you don't mind telling me ?"
-    reason = renpy.input("Why aren't I'm okay ?")
+    $ reason = renpy.input("Why aren't I'm okay ?")
     li "So you're not doing well because [reason]"
 

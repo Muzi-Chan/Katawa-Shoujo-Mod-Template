@@ -17,7 +17,6 @@ label splashscreen:
 
 label main_menu:
 
-
     python:
         if from_splash:
             renpy.transition(Dissolve(1.0))

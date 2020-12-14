@@ -4,17 +4,19 @@
 
 
 label imachine:
+    call iscene ('disclaimer')  #DON'T COMMENT THIS ONE, IT'S THE "NOT OFFICIAL THINGIE" DISCLAILER
     #jump_out NOP1          #Decomment this one to start the real story
     jump_out ex             #Comment this to start somewhere else than in the exemple scene
 
 
 
-label ex:                   #My exemple scene, for Lumi
+label ex:                   #My exemple scene, for my best friend
     call iscene ("exemple") #call iscene goto the game function with the string in parenthesis
     if _return == 1:
-        
+        jump_out exemple1
     elif _return == 2:
-
+        jump_out exemple2
+    
 label exemple1:
     call iscene ("ex1")
     return

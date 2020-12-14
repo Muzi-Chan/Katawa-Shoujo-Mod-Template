@@ -7,12 +7,12 @@ init python:
 
 
 
-    build.directory_name = "Katawa Shoujo-1.3.1"
+    build.directory_name = "Katawa Shoujo-M.T.1"
 
 
 
 
-    build.executable_name = "Katawa Shoujo"
+    build.executable_name = "Katawa Shoujo Mod Template"
 
 
 
